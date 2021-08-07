@@ -20,7 +20,7 @@ Moringa School is specializes in tailor made student training. Our approach unif
 ---
 
 ## Languages and Tools
-<p align="left"> <a href="https://www.w3schools.com/css/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://getbootstrap.com/" target="_blank"> <img src="https://miro.medium.com/max/2000/1*9HanDsRU11ZMsgDGJwN96w.png" alt="bootstrap" width="40" height="40"/> </a> <a href="https://jquery.com/" target="_blank"> <img src="https://cms-assets.tutsplus.com/uploads/users/30/posts/35633/preview_image/jquery-js.png" alt="jquery" width="40" height="40"/> </a> <a href="https://www.w3schools.com/php/" target="_blank"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8xfLSWm9hvJTdcxQGJedLcfDLxyS8rNvBwA&usqp=CAU" alt="jquery" width="40" height="40"/> </a> </p> 
+<p align="left"> <a href="https://www.w3schools.com/css/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://getbootstrap.com/" target="_blank"> <img src="https://miro.medium.com/max/2000/1*9HanDsRU11ZMsgDGJwN96w.png" alt="bootstrap" width="40" height="40"/> </a> <a href="https://jquery.com/" target="_blank"> <img src="https://cms-assets.tutsplus.com/uploads/users/30/posts/35633/preview_image/jquery-js.png" alt="jquery" width="40" height="40"/> </a> <a href="https://www.w3schools.com/php/" target="_blank"> <img src="https://raw.githubusercontent.com/freestyletear/BTRD_moringa/master/images/php.jpeg" alt="php" width="40" height="40"/> </a> </p> 
 
 <p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=freestyletear&show_icons=true&locale=en&layout=compact&theme=cobalt" alt="freestyletear github status on top languages used" /></p>
 
@@ -59,7 +59,7 @@ If you find a bug (the website couldn't handle the query and / or gave undesired
 
 ## 📫 Support and contact details
 
-- portfolio https://freestyletear.github.io/BTRD_moringa/
+- portfolio https://freestyletear.github.io/Personal_Portfolio/
 - email <br> **_keithjame@gmail.com_** <br>  **_freestyletear@gmail.com_**
 - phone: _Airtel-Kenya_ :- ~~+254788507559~~
 
