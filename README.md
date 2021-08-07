@@ -1,4 +1,4 @@
-<h1 align=center >BTRD MORINGA</h1>
+<h1 align=center >BTRD</h1>
 
 <p align=center >BTRD Moringa is a website to showcase how i have created somehow a Moringa School website, 24 July 2021</p>
 
