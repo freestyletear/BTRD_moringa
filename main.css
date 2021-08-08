@@ -20,7 +20,7 @@ html {
 .header {
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.5),rgba(4,9,30,0.5)),url('/images/banner.jpg');
+    background-image: linear-gradient(rgba(4,9,30,0.5),rgba(4,9,30,0.5)),url('./images/banner.jpg');
     background-position: center;
     background-size: cover;
     position: relative;
@@ -110,7 +110,7 @@ nav .fa {
 .sub-header {
     min-height: 50vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.5),rgba(4,9,30,0.5)),url('/images/about_us_hero_img.jpg');
+    background-image: linear-gradient(rgba(4,9,30,0.5),rgba(4,9,30,0.5)),url('./images/about_us_hero_img.jpg');
     background-position: center;
     background-size: cover;
     position: relative;
@@ -291,7 +291,7 @@ nav .fa {
 /* Call To Action */
 .cta {
     margin: 100px auto;
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('/images/facility-1.jpg');
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('./images/facility-1.jpg');
     background-size: cover;
     background-position: center;
     text-align: center;
