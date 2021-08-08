@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&family=Cormorant+Garamond:wght@300&display=swap');
+
 html {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -136,12 +138,14 @@ nav .fa {
 #aboutUsTwo .col-xs-6.col-md-6 .card-body p {
     padding: 15px 0 25px;
 }
+#footerTwo .row .card-body .col-xs-3.col-md-3 form .hero-btn,
 #contact .col-xs-6.col-md-4 .card-body form .hero-btn,
 #blog .col-xs-8.col-md-8 .card-body .comment-box .hero-btn,
 #aboutUsTwo .col-xs-6.col-md-6 .card-body a.hero-btn {
     border-color: blue;
     color: blue;
 }
+#footerTwo .row .card-body .col-xs-3.col-md-3 form .hero-btn:hover,
 #contact .col-xs-6.col-md-4 .card-body form .hero-btn:hover,
 #blog .col-xs-8.col-md-8 .card-body .comment-box .hero-btn:hover,
 #aboutUsTwo .col-xs-6.col-md-6 .card-body a.hero-btn:hover {
@@ -378,18 +382,62 @@ iframe {
     flex-basis: 50%;
     margin-bottom: 30px;
 }
+#footerTwo .row .card-body .col-xs-3.col-md-3 .flex,
 #contact .col-xs-6.col-md-4 .card-body div {
     display: flex;
     align-items: center;
     margin-bottom: 30px;
 }
+#footerTwo .row .card-body .col-xs-3.col-md-3 div .icon,
 #contact .col-xs-6.col-md-4 .card-body div .icon {
     margin-right: 20px;
     font-size: 50px;
 }
+#footerTwo .row .card-body .col-xs-3.col-md-3 div span,
 #contact .col-xs-6.col-md-4 .card-body div span h5 {
     color: #555;
     font-weight: 400;
+}
+/* Footer 2 */
+#footerTwo {
+    background-color: #051134;
+}
+#footerTwo .row .card-body .row {
+    width: 92%;
+    margin: auto;
+}
+#footerTwo .row .col-xs-12,col-md-12 {
+    width: 90%;
+    margin: 50px auto;
+}
+#footerTwo .row .card-body .row .col-xs-3.col-md-3 ul  {
+    text-align: left;
+}
+#footerTwo .row .card-body .col-xs-12.col-md-12 .col-xs-3.col-md-3 {
+    flex-basis: 25%;
+    width: 100%;
+}
+#footerTwo .row .card-body .col-xs-3.col-md-3 li {
+    list-style: none;
+}
+#footerTwo .row .card-body .col-xs-3.col-md-3 li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    font-family: 'Cormorant Garamond', serif;
+}
+#footerTwo .row .card-body .col-xs-3.col-md-3 .card-title {
+    color: red;
+}
+#footerTwo .row .card-body .col-xs-3.col-md-3 .row p a img {
+    width: 50px;
+    height: 50px;
+}
+#footerTwo .row .card-body .col-xs-3.col-md-3 .card-body .card .row .card-body {
+    display: flex;
+}
+#footerTwo .row .card-body .col-xs-3.col-md-3 .card-body .card .row .card-body p a img {
+    margin-right: 15px;
 }
 /* Media Query */
 @media only screen and (max-width: 1189px) {
