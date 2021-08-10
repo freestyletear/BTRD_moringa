@@ -106,7 +106,6 @@ nav .fa {
     display: none;
 }
 .modal.fade.two {
-    position: static;
     top: 0;
     height: 900px;
     background-size: cover;
@@ -114,9 +113,12 @@ nav .fa {
     background-position: center;
     background-image: url('./images/BLkE.gif');
     background-repeat: no-repeat;
-    /* background-color: rgba(0,0,0,1.0); */
+    background-color: rgba(0,0,0,1.0);
 }
 .modal-dialog {
+    top: 0;
+    left: 0;
+    /* display: none; */
     position: relative;
     height: 100%;
     margin-left: 25%;
@@ -237,50 +239,6 @@ nav .fa {
     font-weight: bold;
     margin: 10px auto;
 }
-
-/* .testimonials,
-.col,
-.schools,
-.course {
-    margin: auto;
-    text-align: center;
-    padding-top: 80px;
-}
-.col h1,
-.schools h1,
-.course h1 {
-    font-size: 36px;
-    font-weight: bold;
-}
-.schools p,
-.course p {
-    color: rgb(82, 79, 79);
-    font-size: 14px;
-    font-weight: 300px;
-    line-height: 22px;
-    padding: 10px;
-}
-.row {
-    margin-top: 5px;
-    display: flex;
-    justify-content: space-between;
-}
-.course-col {
-    flex-basis: 31%;
-    background-color: #d60af148;
-    border-radius: 10px;
-    padding: 20px 12px;
-    margin: 0 20px 0 20px;
-    transition: 0.5s;
-}
-.course-col:hover {
-    box-shadow: 0 0 40px 0 rgba(0,0,0,0.7);
-}
-.course-col h3 {
-    text-align: center;
-    font-weight: bold;
-    margin: 10px 0;
-} */
 
 /* Schools Section */
 .card-img-overlay {
