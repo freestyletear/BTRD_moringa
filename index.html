@@ -30,9 +30,97 @@
         <div class="text-box">
             <h1>Fastest Developing, Learning and Networked Institutions</h1>
             <p>Are you at the right place because you came looking for reveletions? then yes you are just where you need to be for at each one of our institutions<br> we are natured to guide you to the core.</p>
-            <a href="#" class="hero-btn">Visit Us To Learn More</a>
+            <a href="#modal" id="myBtn" class="btn hero-btn" type="button" data-toggle="modal" data-target="#modalCenter">Craving for more...</a>
         </div>
+        <div class="modal fade" id="modalCenter" tabindex="-1" role="dialog" aria-labelledby="modalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content rounded-0"  style="width: 700px;">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modalCenterTitle">From BTRD Moringa to you</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><span class="icon-close2"></span></span>&times</button>
+                    </div>
+                    <div class="modal-body">
+                        <div style="width:100%">
+                            <img style="width: 670px; height: 300px;" src="https://media.giphy.com/media/RrVzUOXldFe8M/giphy.gif" alt="">
+                        </div>
+                        <div class="card">
+                            <div class="row">
+                                <img src="./images/logo.png" alt="">
+                                <div class="col-xs-6 col-md-6">
+                                    <div class="card-title">
+                                        <h1 class="text-center">Subscribe</h1>
+                                    </div>
+                                    <div id="one" class="card-body text-center">
+                                        <p class="card-text">To our newsletter</p>
+                                        <p class="card-text">you woun't miss a thing or rigret it</p>
+                                    </div>
+                                    <form id="formOne">
+                                        <div class="mb-3">
+                                            <input type="name" name="name" class="form-control" id="formControlNameInput1" placeholder="Your Name">
+                                        </div>
+                                        <div class="mb-3">
+                                            <input type="email" name="email" class="form-control" id="formControlEmailInput1" placeholder="Your Email">
+                                        </div>
+                                        <button type="submit" id="btnModalOne" class="btn hero-btn" data-toggle="modal" data-target="#modalCenterTwo">send</button>
+                                        <!-- <button type="submit" class="btn-two hero-btn"><a href="#btnModalOne">Send</a></button> -->
+                                        <!-- <button type="submit" class="btn-two"> <a href="#btnModalOne">Send</a> </button> -->
+                                    </form>
+                                </div>
+                                <div class="col-xs-6 col-md-6">
+                                    <div class="card-body">
+                                        <p id="two" class="card-text text-center">
+                                            You can make a diference right now by taking your donor experience to the next level!<br>
+                                            Join the 35,000+ nonprofits already rasing funds online
+                                        </p>
+                                        <button type="submit" id="btnModalTwo" class="hero-btn">Sign up for free</button>
+                                        <p class="card-text bg-info text-center">
+                                            (No setup fee, unsuscribe anytime.)
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade two" id="modalCenterTwo" tabindex="-1" role="dialog" aria-labelledby="modalCenterTwoTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content rounded-0" style="width: 700px;">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalCenterTwoTitle">From BTRD Moringa to you</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><span class="icon-close2"></span></span>&times</button>
+                </div>
+                <div class="modal-body card-body">
+                    <div style="width:100%">
+                        <img style="width: 670px; height: 300px;" src="./images/BLkE.gif" alt="">
+                    </div>
+                    <div class="card-img-overlay">
+                        <p class="text-white lead">We herby inform you that your record has been added, stand by for a confirmation email</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+        <!-- <div id="btnModalOne">
+            <div class="card modal__window">
+                <div class="modal-header">
+                    <h5 class="modal-title" >From BTRD Moringa to you</h5>
+                    <button type="reset"><a class="modal__close" href="#">&times</a></button>
+                    <!-- <a class="modal__close" href="#">&times</a> -->
+                    <!-- <button type="button" class="close modal__close"> <a href="index.html">&times</a> </button> -->
+                <!--</div>
+                <img  src="./images/BLkE.gif" alt="">
+                <div id="two" class="card-img-overlay">
+                    <p class="text-white lead">We herby inform you that your record has been added, stand by for a confirmation email</p>
+                </div>
+            </div>
+        </div> -->
+        
     </section>
+
     <div id="course" class="card">
         <h1>Courses We Offer</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, animi?</p>
@@ -58,6 +146,10 @@
         </div>
     </div>
 
+
+
+
+
     <!-- Schools Section -->
     <div id="schools" class="card">
         <h1 class="text-center">Our Vastly Networking Schools</h1>
@@ -65,19 +157,19 @@
             <div class="row">
                 <div class="col-xs-6 col-md-4">
                     <img src="./images/school-1.jpg" class="card-img" style="width: 30rem;" alt="...">
-                    <div class="card-img-overlay">
+                    <div id="one" class="card-img-overlay">
                         <h3 class="card-title text-black">NAIROBI<br> Ngong Rd Prestige</h3>
                     </div>
                 </div>
                 <div class="col-xs-6 col-md-4">
                     <img src="./images/school-5.jpeg" class="card-img" style="width: 30rem;" alt="...">
-                    <div class="card-img-overlay">
+                    <div id="one" class="card-img-overlay">
                         <h3 class="card-title text-black">NAIROBI<br> Town</h3>
                     </div>
                 </div>
                 <div class="col-xs-6 col-md-4">
                     <img src="./images/school-6.jpg" class="card-img" style="width: 30rem;" alt="...">
-                    <div class="card-img-overlay id">
+                    <div id="one" class="card-img-overlay id">
                         <h3 class="card-title text-black">Kisumu</h3>
                     </div>
                 </div>
@@ -208,7 +300,7 @@
                             <h1>Services</h1>
                         </div>
                         <ul class="card-text">
-                            <li><a href="">Data Science</a></li>
+                            <li><a href="https://moringaschool.com/courses/data-science-course">Data Science</a></li>
                             <li><a href="">Web Development</a></li>
                             <li><a href="">Android Development</a></li>
                             <li><a href="">Dedicated Team</a></li>
@@ -222,8 +314,8 @@
                         </div>
                         <ul class="card-text">
                             <li><a href="">About Us</a></li>
-                            <li><a href="">Designer</a></li>
-                            <li><a href="">Blog</a></li>
+                            <li><a href="https://freestyletear.github.io/Personal_Portfolio/" >Designer</a></li>
+                            <li><a href="https://moringaschool.com/blog">Blog</a></li>
                             <li><a href="">Management Team</a></li>
                         </ul>
                         <div class="card-title">
@@ -269,10 +361,10 @@
                             <div class="card">
                                 <div class="row">
                                     <div class="card-body">
-                                        <p><a href="" target="_blank"> <img src="https://image.flaticon.com/icons/png/128/733/733547.png" alt="facebook"/></a></p>
-                                        <p><a href="" target="_blank"> <img src="https://image.flaticon.com/icons/png/128/220/220375.png" alt="twitter"/></a></p>
-                                        <p><a href="" target="_blank"> <img src="https://image.flaticon.com/icons/png/128/220/220343.png" alt="linkedin"/></a></p>
-                                        <p><a href="" target="_blank"> <img src="https://image.flaticon.com/icons/png/128/1384/1384060.png" alt="youtube"/></a></p>
+                                        <p><a href="https://web.facebook.com/moringaschool/?_rdc=1&_rdr" target="_blank"> <img src="https://image.flaticon.com/icons/png/128/733/733547.png" alt="facebook"/></a></p>
+                                        <p><a href="https://twitter.com/moringaschool" target="_blank"> <img src="https://image.flaticon.com/icons/png/128/220/220375.png" alt="twitter"/></a></p>
+                                        <p><a href="https://www.linkedin.com/school/moringa-school/" target="_blank"> <img src="https://image.flaticon.com/icons/png/128/220/220343.png" alt="linkedin"/></a></p>
+                                        <p><a href="https://www.youtube.com/channel/UCnkYPrm1GvxDzGlT0S2zn4w/videos" target="_blank"> <img src="https://image.flaticon.com/icons/png/128/1384/1384060.png" alt="youtube"/></a></p>
                                     </div>
                                 </div>
                             </div>
@@ -284,6 +376,10 @@
         </div>
     </div>
     
+    <script src="jquery-3.3.1.min.js"></script>
+    <script src="popper.min.js"></script>
+    <script src="bootstrap.min.js"></script>
+    <<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"rayId":"67b769707a71f47e","token":"cd0b4b3a733644fc843ef0b185f98241","version":"2021.7.0","si":10}'></script>script src="main.js"></script>
     <script src="jquery-3.6.0.js"></script>
     <script src="main.js"></script>
 </body>

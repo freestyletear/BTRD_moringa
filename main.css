@@ -105,6 +105,67 @@ nav img {
 nav .fa {
     display: none;
 }
+.modal.fade.two {
+    position: static;
+    top: 0;
+    height: 900px;
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    background-image: url('./images/BLkE.gif');
+    background-repeat: no-repeat;
+    /* background-color: rgba(0,0,0,1.0); */
+}
+.modal-dialog {
+    position: relative;
+    height: 100%;
+    margin-left: 25%;
+}
+.modal-body .card .row img {
+    position: absolute;
+    width: 250px;
+    height: 150px;
+    left: 210px;
+    top: -90px;
+    border-radius: 300px;
+}
+.col-xs-6.col-md-6 .card-body #two.card-text {
+    position: relative;
+    z-index: 3;
+}
+.col-xs-6.col-md-6 {
+    border: 1px solid #FF0000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.col-xs-6.col-md-6 .card-title h1 {
+    position: relative;
+    width: 313px;
+    height: 63px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 75px;
+}
+.col-xs-6.col-md-6 #one.card-body p {
+    font-size: 17px;
+}
+#btnModalOne,
+#btnModalTwo {
+    background-color: red;
+    border-radius: 10px;
+    display: flex;
+    margin: 5px auto;
+}
+#formOne input {
+    background-color: rgba(0, 0, 0, 0.25);
+}
 
 /* About As Page */
 .sub-header {
@@ -231,10 +292,10 @@ nav .fa {
     transition: 0.5s;
     border-radius: 10px;
 }
-.card-img-overlay:hover {
+#one.card-img-overlay:hover {
     background-color: rgba(231, 88, 21, 0.5);
 }
-.card-img-overlay h3 {
+#one.card-img-overlay h3 {
     width: 100%;
     left: -11px;
     font-weight: bold;
@@ -243,7 +304,7 @@ nav .fa {
     transition: 0.5s;
     text-align: center;
 }
-.card-img-overlay:hover h3 {
+#one.card-img-overlay:hover h3 {
     top: 49%;
     opacity: 1;
     font-size: 40px;
@@ -438,6 +499,14 @@ iframe {
 }
 #footerTwo .row .card-body .col-xs-3.col-md-3 .card-body .card .row .card-body p a img {
     margin-right: 15px;
+}
+#footerTwo .row .card-body .col-xs-3.col-md-3 .card-body .card .row .card-body p a:hover {
+    border-bottom: 5px solid greenyellow;
+    padding-bottom: 25px;
+    padding-left: 5px;
+    padding-top: 20px;
+    border-bottom-width: 10px;
+    box-shadow: -8px -1px 8px rgba(4,9,30,0.5);
 }
 /* Media Query */
 @media only screen and (max-width: 1189px) {
