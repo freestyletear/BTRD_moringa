@@ -4,7 +4,7 @@ $visitor_email = $_POST['email'];
 $subject = $_POST['subject'];
 $message = $_POST['message'];
 
-$email_from = 'info@mydomainname.com';
+$email_from = 'https://freestyletear.github.io/BTRD_moringa/ ';
 
 $email_subject = 'New Form Submission';
 
@@ -19,7 +19,7 @@ $headers = "From: $email_from \r\n";
 
 $headers .= "Reply-to: $visitor_email \r\n"; 
 
-mail($to,$email_subject,$email_body);
+mail($to,$email_subject,$email_body,$headers);
 
 header("Location: contact.html");
 ?>

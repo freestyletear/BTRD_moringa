@@ -105,15 +105,21 @@ nav img {
 nav .fa {
     display: none;
 }
-.modal.fade.two {
+#modalCenter.modal.fade {
+    transition: 5s;
+}
+#modalCenterTwo.modal.fade.two {
     top: 0;
-    height: 900px;
+    left: 0;
     background-size: cover;
     position: relative;
     background-position: center;
     background-image: url('./images/BLkE.gif');
     background-repeat: no-repeat;
     background-color: rgba(0,0,0,1.0);
+    transition: 3s;
+    padding-top: 100px;
+    padding-bottom: 250px;
 }
 .modal-dialog {
     top: 0;
@@ -131,11 +137,11 @@ nav .fa {
     top: -90px;
     border-radius: 300px;
 }
-.col-xs-6.col-md-6 .card-body #two.card-text {
+#two.col-xs-6.col-md-6 .card-body #two.card-text {
     position: relative;
     z-index: 3;
 }
-.col-xs-6.col-md-6 {
+#two.col-xs-6.col-md-6 {
     border: 1px solid #FF0000;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 30px;
@@ -145,7 +151,7 @@ nav .fa {
     justify-content: space-between;
     text-align: center;
 }
-.col-xs-6.col-md-6 .card-title h1 {
+#two.col-xs-6.col-md-6 .card-title h1 {
     position: relative;
     width: 313px;
     height: 63px;
@@ -155,7 +161,7 @@ nav .fa {
     font-size: 64px;
     line-height: 75px;
 }
-.col-xs-6.col-md-6 #one.card-body p {
+#two.col-xs-6.col-md-6 #one.card-body p {
     font-size: 17px;
 }
 #btnModalOne,
@@ -412,6 +418,7 @@ iframe {
     margin-right: 20px;
     font-size: 50px;
 }
+.blank, 
 #footerTwo .row .card-body .col-xs-3.col-md-3 div span,
 #contact .col-xs-6.col-md-4 .card-body div span h5 {
     color: #555;
@@ -456,7 +463,7 @@ iframe {
     display: flex;
 }
 #footerTwo .row .card-body .col-xs-3.col-md-3 .card-body .card .row .card-body p a img {
-    margin-right: 15px;
+    margin-right: 13px;
 }
 #footerTwo .row .card-body .col-xs-3.col-md-3 .card-body .card .row .card-body p a:hover {
     border-bottom: 5px solid greenyellow;
@@ -465,6 +472,7 @@ iframe {
     padding-top: 20px;
     border-bottom-width: 10px;
     box-shadow: -8px -1px 8px rgba(4,9,30,0.5);
+    border-bottom-style: groove;
 }
 /* Media Query */
 @media only screen and (max-width: 1189px) {
