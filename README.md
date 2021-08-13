@@ -7,6 +7,8 @@
 
 [![GitHub Issues](https://img.shields.io/github/issues/freestyletear/Keith_James_Akan_Name_Generator)](https://freestyletear.github.io/Keith_James_Akan_Name_Generator/issues)
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ef83406b-608e-458d-aac0-52ae9b1fafde/deploy-status)](https://app.netlify.com/sites/btrd-moringa-0d747/deploys)
+
 ---
 
 ## Description
